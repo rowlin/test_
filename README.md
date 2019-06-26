@@ -1,5 +1,41 @@
 
 
+
+Получаю ответ в таком виде - похоже , но не соответствует:
+Возможно, стоит переписать с использованием \Datetime..
+или что не правильно в формулах 
+ 
+pc-user@i:~/Code/test_w/ERIAL-test-task$ php index.php 
+Array
+(
+    [periodStartDate] => 2019-02-04
+    [periodEndDate] => 2019-03-03
+    [interestCounted] => 6.42
+    [amountStart] => 1234.55
+    [amountEnd] => 1240.97
+)
+Array
+(
+    [periodStartDate] => 2019-03-04
+    [periodEndDate] => 2019-04-03
+    [interestCounted] => 7.13
+    [amountStart] => 1240.97
+    [amountEnd] => 1248.12
+)
+Array
+(
+    [periodStartDate] => 2019-04-04
+    [periodEndDate] => 2019-05-03
+    [interestCounted] => 6.9
+    [amountStart] => 1248.12
+    [amountEnd] => 1255.07
+)
+Test 1 OK
+Test 2 OK
+Test 3 failed
+
+
+
 Используемая среда:
  - PHP 7.1
  - Временная зона по умолчанию: UTC

@@ -30,7 +30,7 @@ class Deposit{
             $array[$i]["amountStart"] = round($this->amount , 2);
             $array[$i]["amountEnd"] = round($amountEnd  , 2 ) ;
             $this->amount = $amountEnd;
-            //print_r($array[$i]);
+            print_r($array[$i]);
             $start_date =  date ("Y-m-d", strtotime("+1 month", strtotime($start_date)));
         }
 
