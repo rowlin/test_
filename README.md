@@ -5,6 +5,8 @@
 Возможно, стоит переписать с использованием \Datetime..
 или что не правильно в формулах 
  
+```
+ 
 pc-user@i:~/Code/test_w/ERIAL-test-task$ php index.php 
 Array
 (
@@ -34,7 +36,7 @@ Test 1 OK
 Test 2 OK
 Test 3 failed
 
-
+```
 
 Используемая среда:
  - PHP 7.1
